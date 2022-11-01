@@ -1,0 +1,101 @@
+
+
+.navMenu{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 0.3rem solid blue;
+  border-radius: 15px;
+  height: fit-content;
+  width: auto;
+  max-width: 30%;
+  margin: 1%;
+  padding: 15px;
+}
+
+.navButtons{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.active{
+  display:block !important;
+
+}
+
+.navTextBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.navText{
+  font-size: 16px;
+}
+#navTextLink{
+  font-weight: 700;
+}
+
+.topDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mapDiv{
+
+}
+
+.navSubMenu{
+  padding-top: 10px;
+}
+
+.mapDiv{
+  display: flex;
+}
+
+.map-tooltip {
+  font-weight: 400;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: -3px 2px 26px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 2px 26px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 2px 26px -7px rgba(0, 0, 0, 0.75);
+  padding: 6px 12px;
+}
+
+.map-tooltip-name{
+  font-weight: 500;
+}
+
+.map-tooltip-error{
+  font-style: italic;
+}
+
+.TabContainers{
+  display: none;
+  width: 75vh;
+
+
+}
+
+@media(max-width:1200px) {
+  .TabContainers{
+    width: 100%;
+  }
+
+  .topDiv{
+    flex-direction: column;
+  }
+
+  .navMenu{
+    max-width: 100%;
+  }
+}
