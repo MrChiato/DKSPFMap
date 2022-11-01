@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DKSPFMap/static/css/main.979f9a25.css",
+    "main.js": "/DKSPFMap/static/js/main.dcb6cad7.js",
+    "static/js/787.57a34cc8.chunk.js": "/DKSPFMap/static/js/787.57a34cc8.chunk.js",
+    "index.html": "/DKSPFMap/index.html",
+    "main.979f9a25.css.map": "/DKSPFMap/static/css/main.979f9a25.css.map",
+    "main.dcb6cad7.js.map": "/DKSPFMap/static/js/main.dcb6cad7.js.map",
+    "787.57a34cc8.chunk.js.map": "/DKSPFMap/static/js/787.57a34cc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.979f9a25.css",
+    "static/js/main.dcb6cad7.js"
+  ]
+}
