@@ -38,7 +38,7 @@ class App extends Component {
               <p className='navText'><span className='navText' style={{color:'green', fontSize:"20px", fontWeight:"700", WebkitTextStroke:"1px black"}}>Green</span> means everything is correctly setup</p>
               <p className='navText'><span className='navText' style={{color:'lime', fontSize:"20px", fontWeight:"700", WebkitTextStroke:"1px black"}}>Lime</span> means it's almost there, either SPF is ~all OR DMARC policy is quarantine, not both</p>
               <p className='navText'><span className='navText' style={{color:'orange', fontSize:"20px", fontWeight:"700", WebkitTextStroke:"1px black"}}>Orange</span> means improvements is needed, both SPF is ~all and DMARC policy is quarantine, or worse.</p>
-              <p className='navText'><span className='navText' style={{color:'red', fontSize:"20px", fontWeight:"700", WebkitTextStroke:"1px black"}}>Red</span> means something critical is wrong, such as DMARC policy being none or an SPF error</p>
+              <p className='navText'><span className='navText' style={{color:'red', fontSize:"20px", fontWeight:"700", WebkitTextStroke:"1px black"}}>Red</span> means something critical is wrong, such as DMARC policy missing or an SPF error</p>
             </div>
           </div>
         </div>
