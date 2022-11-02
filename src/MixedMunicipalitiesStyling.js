@@ -44,7 +44,7 @@ const App = () => {
         if(result.dmarc === "quarantine"){
             return {
                 style: {
-                  fill: 'Aquamarine'
+                  fill: 'Lime'
                 }
               }
         }
@@ -68,7 +68,7 @@ const App = () => {
         if(result.dmarc === "reject"){
             return {
                 style: {
-                  fill: 'Aquamarine'
+                  fill: 'Lime'
                 }
               }
         }

@@ -1,16 +1,16 @@
-
-
 .navMenu{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   border: 0.3rem solid blue;
   border-radius: 15px;
+  box-shadow: 10px 5px royalblue;
   height: fit-content;
   width: auto;
   max-width: 30%;
   margin: 1%;
   padding: 15px;
+  background-color: aqua;
 }
 
 .navButtons{

@@ -4,14 +4,14 @@ import { TabClick } from "../TabHandling";
 
 const TabButton = styled.button`
     border-radius: 10px;
-    border: 3px solid grey;
+    border: 3px solid royalblue;
     box-shadow: 0 0 10px ${({bs}) => bs || 'rgba(0, 0, 0, 0.15)'};
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
     padding: 1vh 2vw;
     margin: 5px;
-    background-color: ${({bg}) => bg || 'white'};
+    background-color: ${({bg}) => bg || 'aqua'};
     color: black;
 
     &:hover{
@@ -20,14 +20,14 @@ const TabButton = styled.button`
     }
     &:active{
         border: 3px solid royalblue;
-        background-color: white;
+        background-color: royalblue;
     }
     &:disabled{
         opacity: 0.3;
     }
     &:buttonActive{
         border: 3px solid royalblue;
-        background-color: white;
+        background-color: blue;
     }
 `
 
